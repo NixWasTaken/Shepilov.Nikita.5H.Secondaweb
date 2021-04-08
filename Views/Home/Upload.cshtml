@@ -1,0 +1,14 @@
+@model CreatePost
+
+<header id="header">
+                        <h1>Upload</h1>
+
+                    </header>
+<form asp-action="Upload" enctype="multipart/form-data">
+
+    <input asp-for="Descrizione"/>
+    <input asp-for="MyCSV"/>
+
+    <input type="submit"/>
+
+</form>

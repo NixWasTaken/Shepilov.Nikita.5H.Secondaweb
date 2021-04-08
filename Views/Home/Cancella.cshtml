@@ -1,0 +1,28 @@
+@model PrenotazioneContext
+@{  
+    ViewData["Title"] = "Cancella Page";
+ }
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1>Grazie per la prenotazione</h1>
+    <h2>ecco l'elenco delle persone prenotate</h2>
+    <table class="table table-bordered table-striped table-sm">
+       <thead>
+           <tr>
+               <th>Home</th>
+               <th>Email</th>
+           </tr>
+       </thead> 
+       <tbody>
+           @foreach(Prenotazione p in Model.Prenotazioni)
+           {
+            <tr>
+             <td>@p.Nome</td> 
+             <td>@p.Email</td>
+            </tr>
+           }
+       </tbody>
+    </table>
+</div>
