@@ -1,7 +1,7 @@
 # SecondaWeb
 ## ASP.NET 5.0, MS identity
 
-Project Seconda Web use ASP.NET 5.0 and a DatabBbase identity FrameWork
+SecondaWeb implements ASP.NET and DatabBbase identity FrameWork
 
 ### What does it contain?
 
