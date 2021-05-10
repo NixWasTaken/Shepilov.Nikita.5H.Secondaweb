@@ -1,7 +1,6 @@
 # SecondaWeb
-## ASP.NET 5.0, MS identity
 
-SecondaWeb implements ASP.NET and DatabBbase identity FrameWork
+## ASP.NET 5.0, MS identity
 
 ### What does it contain?
 
