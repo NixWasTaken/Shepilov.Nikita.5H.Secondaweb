@@ -4,6 +4,6 @@
 
 ### What does it contain?
 
-- 4 CRUD operations
+- CRUD operations
 - html5 template used for css source code: https://html5up.net/landed
 
