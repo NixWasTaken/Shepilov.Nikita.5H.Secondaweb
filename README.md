@@ -4,7 +4,6 @@
 
 ### What does it contain?
 
-- LogIn, SignUp,LogOut
-- 4 CRUDE operations on a SQL DataBase
-- html5 template for graphics: https://html5up.net/landed
+- 4 CRUD operations
+- html5 template used for css source code: https://html5up.net/landed
 
